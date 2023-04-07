@@ -1,5 +1,15 @@
 #!/bin/bash
 
+if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
+	echo "usage: $0 [-c|-h|-s]"
+	echo
+	echo "  --clean, -c: clean the build space"
+	echo "  --save, -s:  save the docker image as a compressed tarball"
+	echo "  --help, -h:  this page"
+	echo
+	exit 0
+fi
+
 if [ "$1" == "--clean" ] || [ "$1" == "-c" ]; then
 	echo "cleaning reproducible project files..."
 	rm -rf ./api/**/__pycache__
