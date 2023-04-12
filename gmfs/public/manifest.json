@@ -1,9 +1,0 @@
-{
-  "short_name": "File Browser",
-  "name": "Simple File Browser",
-  "icons": [],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}

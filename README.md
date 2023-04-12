@@ -1,4 +1,4 @@
-# Simple File Manager
+# Simple File Browser
 A simple file storage and browser interface. Created using
 _ReactJS_ and supported by a RESTful API implemented
 with Python's _Flask_ framework.
